@@ -1,0 +1,28 @@
+==> /etc/hostname.bridge0 <==
+add re1
+add mpw0
+add mpw1
+up
+description "vpls_bridge"
+
+==> /etc/hostname.lo1 <==
+inet 10.0.0.3 255.255.255.255
+description "id_loopback"
+
+
+==> /etc/hostname.mpw0 <==
+create
+up
+
+==> /etc/hostname.mpw1 <==
+create
+up
+
+==> /etc/hostname.re0 <==
+inet 172.30.2.6 255.255.255.252
+mpls
+description "mpls_conn"
+
+==> /etc/hostname.re1 <==
+up
+

@@ -1,0 +1,19 @@
+==> /etc/hostname.lo1 <==
+inet 10.0.0.1 255.255.255.255
+description "id_loopback"
+
+==> /etc/hostname.re0 <==
+inet 172.30.2.1 255.255.255.252
+mpls
+description "p1_edge"
+
+==> /etc/hostname.re1 <==
+inet 172.30.2.5 255.255.255.252
+mpls
+description "p2_edge"
+
+==> /etc/hostname.re2 <==
+inet 172.30.2.9 255.255.255.252
+mpls
+description "p3_edge"
+
